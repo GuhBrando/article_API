@@ -15,4 +15,4 @@ def gnews(method, category = "general"):
 def meaning_cloud():
         print(requests.post('http://127.0.0.1:5000/meaning-cloud').json())
 
-gnews("post", "")
+gnews("post", "world")

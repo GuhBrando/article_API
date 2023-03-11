@@ -9,7 +9,7 @@ GNEWS(POST)
 
 Utilizando o script "usingAPI" com a função gnews(post), poderemos fazer inserção de mais valores dependendo do tipo da categoria passada na propria função. Segue exemplo de como seria utilizado a função:
 
-GNEWS("post", "business")
+gnews("post", "business")
 
 Categorias disponibilizadas pela api: general, world, nation, business, technology, entertainment, sports, science e health
 
